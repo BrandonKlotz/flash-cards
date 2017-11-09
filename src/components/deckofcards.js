@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Cards from './cards.js'
+import Buttons from './buttons.js'
 
 // Define tha ContactCard comonent using ES6 class syntax
 class DeckOfCards extends Component {
@@ -8,8 +9,8 @@ class DeckOfCards extends Component {
 
         return (
             <div className="DeckOfCards">
-              <p>Does this shit work?</p>
               <Cards />
+              <Buttons />
             </div>
         );
     }
